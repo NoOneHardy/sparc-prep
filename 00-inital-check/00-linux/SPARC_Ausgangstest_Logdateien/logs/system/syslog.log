@@ -1,0 +1,10 @@
+2026-07-20T08:00:01+02:00 debian kernel: Linux version 6.1.0-amd64 started
+2026-07-20T08:00:03+02:00 debian systemd[1]: Started Network Manager.
+2026-07-20T08:01:12+02:00 debian NetworkManager[612]: DHCP lease acquired: 192.168.122.44
+2026-07-20T08:14:40+02:00 debian systemd[1]: Starting Daily apt download activities...
+2026-07-20T08:14:43+02:00 debian apt-helper[882]: Download completed successfully
+2026-07-20T09:02:16+02:00 debian kernel: usb 1-2: new high-speed USB device number 4
+2026-07-20T09:18:22+02:00 debian systemd-resolved[430]: Server returned error NXDOMAIN for lab.internal
+2026-07-20T09:18:25+02:00 debian systemd-resolved[430]: Using fallback DNS server 1.1.1.1
+2026-07-20T10:31:05+02:00 debian kernel: eth0: Link is Up - 1Gbps/Full
+2026-07-20T11:47:54+02:00 debian systemd[1]: session-4.scope: Deactivated successfully

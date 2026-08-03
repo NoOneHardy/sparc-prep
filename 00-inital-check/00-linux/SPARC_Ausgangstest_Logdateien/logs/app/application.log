@@ -1,0 +1,12 @@
+2026-07-20 08:00:08.013 INFO  [main] c.s.lab.Application - Application started
+2026-07-20 08:00:08.219 INFO  [main] c.s.lab.Database - Connection pool initialized
+2026-07-20 08:12:41.552 INFO  [http-8080-1] c.s.lab.Auth - User trainee logged in
+2026-07-20 08:23:02.144 WARN  [http-8080-3] c.s.lab.Auth - Invalid credentials for user guest
+2026-07-20 09:15:27.902 ERROR [scheduler-1] c.s.lab.ReportJob - Could not generate report: template missing
+2026-07-20 09:15:27.904 ERROR [scheduler-1] c.s.lab.ReportJob - Job execution failed
+2026-07-20 09:31:06.481 INFO  [http-8080-4] c.s.lab.Api - GET /api/status 200
+2026-07-20 10:17:49.331 ERROR [http-8080-7] c.s.lab.Api - Database connection timeout after 5000 ms
+2026-07-20 10:18:03.871 WARN  [pool-2] c.s.lab.Database - Retrying database connection
+2026-07-20 10:18:08.011 INFO  [pool-2] c.s.lab.Database - Database connection restored
+2026-07-20 10:44:51.210 error [worker-3] c.s.lab.Import - malformed CSV row at line 184
+2026-07-20 11:02:15.100 INFO  [shutdown] c.s.lab.Application - Health check passed

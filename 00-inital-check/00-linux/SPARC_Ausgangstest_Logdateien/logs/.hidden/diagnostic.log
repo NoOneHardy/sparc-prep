@@ -1,0 +1,5 @@
+2026-07-20 10:17:45 DEBUG pool.active=100 pool.max=100
+2026-07-20 10:17:46 DEBUG pool.waiting=14
+2026-07-20 10:17:47 ERROR Connection pool exhausted
+2026-07-20 10:17:48 DEBUG collecting thread dump
+2026-07-20 10:18:08 INFO pool.active=41 pool.max=100

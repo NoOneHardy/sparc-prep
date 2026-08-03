@@ -1,0 +1,10 @@
+2026-07-20 02:00:00 INFO Starting daily backup
+2026-07-20 02:00:01 INFO Source: /srv/lab-data
+2026-07-20 02:00:01 INFO Destination: /mnt/backup/lab-data
+2026-07-20 02:00:14 WARN File changed during backup: /srv/lab-data/cache.tmp
+2026-07-20 02:00:21 INFO Copied 214 files
+2026-07-20 02:00:22 INFO Backup completed successfully
+2026-07-21 02:00:00 INFO Starting daily backup
+2026-07-21 02:00:03 ERROR Destination /mnt/backup is not mounted
+2026-07-21 02:00:03 ERROR Backup aborted
+2026-07-21 02:00:04 INFO Notification queued for administrator

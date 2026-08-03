@@ -1,0 +1,9 @@
+2026/07/20 08:00:02 [notice] 641#641: using the "epoll" event method
+2026/07/20 08:00:02 [notice] 641#641: nginx/1.22.1
+2026/07/20 08:00:02 [notice] 641#641: start worker processes
+2026/07/20 08:41:17 [warn] 642#642: *14 an upstream response is buffered to a temporary file
+2026/07/20 09:03:52 [error] 642#642: *27 open() "/var/www/html/favicon.ico" failed (2: No such file or directory)
+2026/07/20 09:47:11 [error] 642#642: *45 access forbidden by rule, client: 192.168.122.77, request: "GET /.git/config HTTP/1.1"
+2026/07/20 10:17:49 [crit] 642#642: *63 connect() to 127.0.0.1:8080 failed (111: Connection refused) while connecting to upstream
+2026/07/20 10:18:20 [error] 642#642: *64 upstream timed out (110: Connection timed out) while reading response header from upstream
+2026/07/20 10:20:06 [notice] 642#642: signal process started

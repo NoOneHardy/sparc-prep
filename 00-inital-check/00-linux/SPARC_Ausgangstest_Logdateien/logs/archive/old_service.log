@@ -1,0 +1,5 @@
+2026-06-11 06:12:02 INFO Legacy service started
+2026-06-11 06:12:08 ERROR Unable to load deprecated plugin
+2026-06-11 06:12:09 WARN Service continued without plugin
+2026-06-11 07:44:51 ERROR Remote endpoint timeout
+2026-06-11 08:00:00 INFO Legacy service stopped

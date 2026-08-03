@@ -1,0 +1,9 @@
+2026-07-20 08:00:04.101 CEST [655] LOG: database system is ready to accept connections
+2026-07-20 08:22:14.551 CEST [802] LOG: connection authorized: user=lab database=labdb
+2026-07-20 09:30:55.190 CEST [1012] WARNING: there is already a transaction in progress
+2026-07-20 10:17:44.777 CEST [1099] ERROR: remaining connection slots are reserved for non-replication superuser connections
+2026-07-20 10:17:44.777 CEST [1099] STATEMENT: SELECT * FROM audit_events ORDER BY created_at DESC
+2026-07-20 10:17:50.221 CEST [1103] FATAL: too many connections for role "lab"
+2026-07-20 10:18:07.999 CEST [655] LOG: checkpoint complete: wrote 41 buffers
+2026-07-20 10:18:08.003 CEST [1110] LOG: connection authorized: user=lab database=labdb
+2026-07-20 11:00:00.121 CEST [655] LOG: automatic vacuum of table "labdb.public.sessions" completed
