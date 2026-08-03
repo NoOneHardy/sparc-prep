@@ -47,3 +47,17 @@ There are two common options for overwrite the default formatting of the output 
   ```bash
   find /path/to/search -ls
   ```
+  
+## `file`
+
+The `file` command is used to determine the type of a file.
+
+This is especially useful when the compression format of a file is not known.
+
+```bash
+file example
+```
+
+## `openssl`
+
+- `openssl s_client <host>:<port>`: Connect to a server using SSL/TLS and display the certificate information.
