@@ -1,0 +1,31 @@
+=== Example A: Login response ===
+HTTP/1.1 200 OK
+Content-Type: application/json
+Set-Cookie: session_id=4f81a9c2d7; Path=/; HttpOnly; Secure; SameSite=Lax
+
+{"status":"login successful"}
+
+=== Example B: Following browser request ===
+GET /profile HTTP/1.1
+Host: training.local
+Cookie: session_id=4f81a9c2d7
+Accept: application/json
+
+=== Example C: API request with bearer token ===
+GET /api/inventory HTTP/1.1
+Host: api.training.local
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.example.signature
+Accept: application/json
+
+=== Example D: HTTP Basic Authentication ===
+GET /admin HTTP/1.1
+Host: training.local
+Authorization: Basic dHJhaW5lZTpwYXNzd29ydDEyMw==
+Accept: text/html
+
+=== Example E: Response without authentication ===
+HTTP/1.1 401 Unauthorized
+WWW-Authenticate: Bearer realm="training-api"
+Content-Type: application/json
+
+{"error":"authentication required"}
