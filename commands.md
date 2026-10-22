@@ -61,3 +61,24 @@ file example
 ## `openssl`
 
 - `openssl s_client <host>:<port>`: Connect to a server using SSL/TLS and display the certificate information.
+
+## `wc`
+
+Get the number of lines (`-l`), words (`-w`) and bytes (`-c`) of a file.  
+Optionally the characters can be counted as well using `-m`
+
+## `curl`
+
+Execute http requests to a given target.
+
+- `-i`: include response headers in output
+- `-s`: silent mode (do not show status table)
+- `-X`: specify http method
+
+## `cut`
+
+Split the stdin and return it to stdout.  
+Useful when working with [grep](#grep).
+
+- `-d`: specify the delimter (defaults to `\t`)
+- `-f n`: select the given field
